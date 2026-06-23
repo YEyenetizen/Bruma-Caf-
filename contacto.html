@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Bruma Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Bruma <span>Café</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero-small">
+    <div class="hero-content">
+        <h1>Contacto</h1>
+        <p>Estamos aquí para ti. ¡Escribenos!</p>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section" style="background-color: var(--fondo);">
+    <div class="container">
+        <div class="contact-container">
+            <!-- Información de Contacto -->
+            <div class="contact-info">
+                <h2>Información de Contacto</h2>
+                
+                <div style="margin-top: 30px;">
+                    <h3>📍 Dirección</h3>
+                    <p>Av. Central #123<br>Playa del Carmen, Quintana Roo<br>México</p>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h3>📞 Teléfono</h3>
+                    <p><a href="tel:+529845670199" style="color: var(--cafe-medio); font-weight: bold; text-decoration: none;">+52 984 567 0199</a></p>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h3>📧 Correo Electrónico</h3>
+                    <p><a href="mailto:BrumaCafé23@gmail.com" style="color: var(--cafe-medio); font-weight: bold; text-decoration: none;">BrumaCafé23@gmail.com</a></p>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h3>💬 Síguenos en Redes Sociales</h3>
+                    <div class="social-links" style="display: flex; gap: 10px;">
+                        <a href="https://wa.me/529845670199" style="background-color: #25D366; color: white; padding: 10px 15px; border-radius: 8px; text-decoration: none; transition: 0.3s;">
+                            WhatsApp
+                        </a>
+                        <a href="https://instagram.com" style="background-color: #E4405F; color: white; padding: 10px 15px; border-radius: 8px; text-decoration: none; transition: 0.3s;">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h3>⏰ Horarios de Atención</h3>
+                    <p><strong>Lunes - Viernes:</strong> 7:00 AM - 8:00 PM</p>
+                    <p><strong>Sábado:</strong> 8:00 AM - 9:00 PM</p>
+                    <p><strong>Domingo:</strong> 8:00 AM - 7:00 PM</p>
+                </div>
+            </div>
+            
+            <!-- Formulario de Contacto -->
+            <div class="contact-form">
+                <h2>Envíanos un Mensaje</h2>
+                <p style="margin-bottom: 30px; color: var(--texto);">Completa el formulario y nos pondremos en contacto lo antes posible.</p>
+                
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input 
+                        type="text" 
+                        name="nombre" 
+                        placeholder="Tu Nombre" 
+                        required
+                    >
+                    
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Tu Correo Electrónico" 
+                        required
+                    >
+                    
+                    <input 
+                        type="tel" 
+                        name="telefono" 
+                        placeholder="Tu Teléfono (Opcional)"
+                    >
+                    
+                    <select name="asunto" style="width: 100%; padding: 15px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 10px; font-family: 'Poppins', sans-serif;" required>
+                        <option value="">Selecciona un Asunto</option>
+                        <option value="Consulta sobre Productos">Consulta sobre Productos</option>
+                        <option value="Pedido Personalizado">Pedido Personalizado</option>
+                        <option value="Eventos y Catering">Eventos y Catering</option>
+                        <option value="Sugerencias">Sugerencias</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    
+                    <textarea 
+                        name="mensaje" 
+                        placeholder="Tu Mensaje"
+                        required
+                    ></textarea>
+                    
+                    <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">
+                        Enviar Mensaje
+                    </button>
+                </form>
+                
+                <p style="margin-top: 20px; font-size: 0.9rem; color: #666; text-align: center;">
+                    También puedes contactarnos directamente por WhatsApp para respuestas más rápidas.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- POR QUÉ CONTACTARNOS -->
+<section class="section" style="background-color: var(--crema);">
+    <div class="container">
+        <div class="section-title">
+            <h2>¿Por Qué Contactarnos?</h2>
+            <p>Estamos disponibles para ayudarte</p>
+        </div>
+        
+        <div class="contact-reasons">
+            <div class="reason-card">
+                <h3>🛒 Realizar Pedidos</h3>
+                <p>Pide tus bebidas favoritas para llevar o para que las prepares en casa.</p>
+            </div>
+            
+            <div class="reason-card">
+                <h3>🎉 Eventos Especiales</h3>
+                <p>Consulta sobre nuestro servicio de catering para eventos y reuniones.</p>
+            </div>
+            
+            <div class="reason-card">
+                <h3>💡 Recomendaciones</h3>
+                <p>Nuestro equipo está listo para recomendarte la bebida perfecta.</p>
+            </div>
+            
+            <div class="reason-card">
+                <h3>📋 Consultas Generales</h3>
+                <p>Pregunta sobre ingredientes, alergias, promociones y más.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div>
+            <h3>Bruma Café</h3>
+            <p>Bebidas artesanales hechas con pasión y cuidado.</p>
+            <div class="social-links">
+                <a href="https://wa.me/529845670199" title="WhatsApp">WhatsApp</a>
+                <a href="https://instagram.com" title="Instagram">Instagram</a>
+            </div>
+        </div>
+        
+        <div>
+            <h3>Navegación</h3>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="ubicacion.html">Ubicación</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="pagos.html">Métodos de Pago</a>
+        </div>
+        
+        <div>
+            <h3>Contacto</h3>
+            <p>📍 Av. Central #123, Playa del Carmen, Quintana Roo</p>
+            <p>📱 +52 984 567 0199</p>
+            <p>✉️ BrumaCafé23@gmail.com</p>
+        </div>
+        
+        <div>
+            <h3>Horarios</h3>
+            <p>Lunes - Viernes: 7:00 AM - 8:00 PM</p>
+            <p>Sábado: 8:00 AM - 9:00 PM</p>
+            <p>Domingo: 8:00 AM - 7:00 PM</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Bruma Café. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
